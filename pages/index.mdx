@@ -1,0 +1,43 @@
+import { Tabs } from 'nextra/components'
+import { Steps } from 'nextra/components'
+
+<Steps>
+  ### Installation
+  Install the required dependencies using one of the following commands:
+
+  <Tabs items={['pnpm', 'npm', 'yarn', 'burn']} defaultIndex={1}>
+    <Tabs.Tab>
+      ```sh copy
+      pnpm install react-ui
+      ```
+    </Tabs.Tab>
+    <Tabs.Tab>
+      ```sh copy
+      npm install react-ui
+      ```
+    </Tabs.Tab>
+    <Tabs.Tab>
+      ```sh copy
+      yarn add react-ui
+      ```
+    </Tabs.Tab>
+    <Tabs.Tab>
+      ```sh copy
+      burn add react-ui
+      ```
+    </Tabs.Tab>
+  </Tabs>
+
+   ### Step 2: Basic Usage
+  After installation, you can start using `react-ui` by importing the components you need.
+
+  ```jsx
+  import { Button } from 'react-ui';
+
+  function App() {
+    return <Button>Click Me</Button>;
+  }
+
+  export default App;
+  ```
+</Steps>
