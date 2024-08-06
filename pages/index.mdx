@@ -28,16 +28,29 @@ import { Steps } from 'nextra/components'
     </Tabs.Tab>
   </Tabs>
 
-   ### Step 2: Basic Usage
+   ###  Basic Usage
   After installation, you can start using `react-ui` by importing the components you need.
 
   ```jsx
-  import { Button } from 'react-ui';
+  import { TextField } from 'react-ui';
 
   function App() {
-    return <Button>Click Me</Button>;
+    return <TextField  placeholder="name"/>;
   }
 
   export default App;
   ```
+
+   ### Import CSS
+  After installing the package, you'll need to import the CSS file to ensure the components are properly styled.
+
+  Add the following import statement to your main CSS file, or directly in your `index.js` or `App.js` file:
+
+  ```jsx  copy
+import "react-to-ui/dist/index.css";
+  ```
+
+  The documentation now not only explains how to use the components but also gives the user a better
+   understanding of the value react-ui brings to their project. This makes the documentation more informative
+    and encourages adoption.
 </Steps>

@@ -1,0 +1,24 @@
+# FormGroup Component
+
+The `FormGroup` component is designed to group form elements, often pairing a label or title with its corresponding input field or set of fields. This component provides a consistent layout and styling for forms, making it easier to maintain a uniform design throughout your application.
+
+## Usage
+
+To use the `FormGroup` component, simply wrap your form elements inside it, optionally providing a `title` prop to act as a label or descriptor for the group.
+
+### Example
+
+```jsx
+import { FormGroup } from "react-to-ui";
+import { FormCard } from "react-to-ui";
+import "react-to-ui/dist/index.css"
+
+const MyForm = () => {
+  return (
+     <FormCard >
+      <FormGroup>
+         ........
+      </FormGroup>
+    </FormCard>  
+  );
+};

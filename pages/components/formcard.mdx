@@ -1,0 +1,21 @@
+# FormCard Component
+
+The `FormCard` component is a reusable form wrapper that provides a styled container for form elements. It simplifies form creation by handling the `onSubmit` event and allowing you to pass custom content as children.
+
+## Usage
+
+To use the `FormCard` component, import it and wrap your form elements inside it. You can optionally pass an `onSubmit` handler and additional CSS classes via the `className` prop.
+
+### Example
+
+```jsx
+import { FormCard } from "react-to-ui";
+import "react-to-ui/dist/index.css";
+
+const MyForm = () => {
+  return (
+     <FormCard >
+          ........
+    </FormCard>  
+  );
+};

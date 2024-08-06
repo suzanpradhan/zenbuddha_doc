@@ -1,0 +1,33 @@
+
+# Using FormFooter Component in React
+
+In this guide, we'll look at how to use the `FormFooter` component from the `react-to-ui` library. This component is designed to help you create a consistent footer section for your forms, typically used for action buttons like "Submit" or "Cancel".
+
+### Example
+
+```jsx
+import { FormGroup } from "react-to-ui";
+import { FormCard } from "react-to-ui";
+import "react-to-ui/dist/index.css"
+
+const MyForm = () => {
+  return (
+     <FormCard className="m-4" >
+      <FormGroup title="General">
+         ......
+      </FormGroup>
+      <FormFooter>
+          <button className="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-600">
+            Cancel
+          </button>
+          <button className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600">
+            Submit
+          </button>
+        </FormFooter>
+    </FormCard>  
+  );
+};
+
+
+
+

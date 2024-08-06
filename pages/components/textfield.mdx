@@ -1,0 +1,68 @@
+# TextField Component
+
+The `TextField` component is a versatile input field that can be used for both single-line (input) and multi-line (textarea) text entry. It provides built-in support for labels, placeholders, suffixes, and more, making it suitable for a wide range of form use cases.
+
+## Usage
+
+To use the `TextField` component, import it and configure its props to suit your form's needs. You can use it for both single-line text inputs and multi-line text areas.
+
+### Example
+
+```jsx
+import { TextField } from 'react-to-ui';
+import { FormGroup } from "react-to-ui";
+import { FormCard } from "react-to-ui";
+import "react-to-ui/dist/index.css";
+
+const MyForm = () => {
+  return (
+     <FormCard className="m-4" >
+      <FormGroup title="General">
+        <div className="flex lg:flex-row flex-col gap-5 mb-2">
+          <TextField
+            id="order"
+            type="number"
+            label="Order"
+            className="flex-1"
+            required
+         
+          />
+           <TextField
+            id="fullname"
+            type="text"
+            label="Full Name"
+            className="flex-1"
+            required
+          />
+         
+        </div>
+        <div className="flex lg:flex-row flex-col gap-5 mb-2">
+          <TextField
+            id="Location"
+            type="text"
+            label="Location"
+            className="flex-1"
+            required
+          />
+         <TextField
+            id="fullname"
+            type="text"
+            label="ID"
+            className="flex-1"
+            required
+          />
+        </div>
+      </FormGroup>
+      <FormFooter>
+          <button className="py-2 px-4 bg-gray-500 text-white rounded hover:bg-gray-600">
+            Cancel
+          </button>
+          <button className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600">
+            Submit
+          </button>
+        </FormFooter>
+    </FormCard>
+  );
+};
+
+```

@@ -1,6 +1,7 @@
 {
-    "formcard": "FormCard",
-    "formgroup": "FormGroup",
-    "textfield": "TextField"
+  "formcard": "FormCard",
+  "formgroup": "FormGroup",
+  "formfooter": "FormFooter",
+  "textfield": "TextField"
   }
   
