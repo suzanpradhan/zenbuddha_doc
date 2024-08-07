@@ -2,9 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/components/formfooter": "pages/components/formfooter.js",
-  "/components/textfield": "pages/components/textfield.js",
-  "/components/formcard": "pages/components/formcard.js",
-  "/": "pages/index.js",
-  "/components/formgroup": "pages/components/formgroup.js"
+  "/": "pages/index.js"
 }

@@ -2,6 +2,8 @@
   "formcard": "FormCard",
   "formgroup": "FormGroup",
   "formfooter": "FormFooter",
-  "textfield": "TextField"
+  "textfield": "TextField",
+  "button": "Button",
+  "spinner": "Spinner"
   }
   
